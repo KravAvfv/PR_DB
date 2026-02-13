@@ -1,13 +1,4 @@
-# Ігноруємо конфіденційні дані (паролі та хости)
-.dbeaver/credentials-config.json
-.dbeaver/data-sources.json
-.dbeaver-data-sources.xml
-.dbeaver/project-settings.json
-
-# Ігноруємо системні налаштування середовища Eclipse/DBeaver
-.settings/
-.project
-
-# Ігноруємо тимчасові файли та логи
-*.log
-bin/
+**/*.localz
+**/*.local
+**/*.git
+**/*.DS_Store

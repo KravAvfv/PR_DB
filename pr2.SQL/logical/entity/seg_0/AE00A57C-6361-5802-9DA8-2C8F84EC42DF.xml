@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE00A57C-6361-5802-9DA8-2C8F84EC42DF" name="CUSTOMERv1">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:42:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="customer_id" id="48765562-DD2A-B034-CB36-97CA01D9F9FA">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:42:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="full_name" id="CA78F52B-6EF3-3365-CA44-23D2125B4891">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:42:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="6BAA1BB1-71D9-3362-956D-EAADF149D82F">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:42:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_number" id="5AF14EAF-236E-47D7-500B-DF76D46B69A2">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:42:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_address" id="BF266A47-2157-002A-6668-8BE19082E94B">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:42:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current_balance" id="E7C25D9E-67E8-965C-F462-600713376495">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:42:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer_type" id="4B5D2032-040A-D4FE-870F-D42E126A11DE">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:42:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3554276-5286-65B0-BFF2-9929751BFE32" name="CUSTOMER PK">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:42:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>48765562-DD2A-B034-CB36-97CA01D9F9FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

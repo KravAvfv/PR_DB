@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pr2.SQL" id="D5A1809B-9E83-D80F-5864-657E345F0FE5" version="3.5">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 18:40:30 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D5A1809B-9E83-D80F-5864-657E345F0FE5</designId>
+</OSDM_Design>
