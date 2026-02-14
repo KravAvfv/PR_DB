@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="741D8F7A-A00C-ED42-44AA-2AA14415F997" mainViewID="F1123D4E-3207-3350-A32C-E2F1EC266B97">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 18:40:31 UTC</createdTime>
+<ownerDesignName>PR2Push</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>init_db.sql</fileName>
+<pathName>/home/difuzix/oraclesqldeveloperdatamodeler/mywork/PR_DB</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

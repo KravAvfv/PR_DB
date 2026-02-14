@@ -13,4 +13,34 @@
 <diagramColor>-1</diagramColor>
 <display>false</display>
 <notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="4A15FD66-2CDE-DE11-1149-D066FDF45040" otype="Table" vid="5C20B249-5C5C-C898-422D-9C469BAE4938">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="41" y="402" width="179" height="88"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="63EB1A4D-AB7E-61C1-62C9-6B9AD34A14A0" otype="Table" vid="785937AC-26C5-1DED-105E-46C1D5D9F2EC">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="626" y="56" width="219" height="156"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="7F358F9A-DE2F-EDEF-7E27-CFE295A15A50" otype="Table" vid="7C38C489-E493-639C-9549-2201E81ABDA6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="333" y="389" width="194" height="116"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="9C4BC886-B49E-5350-9C79-D259CC5FDDF3" otype="Table" vid="77ED61C5-9705-D60D-4D82-7E067A1612FF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="621" y="385" width="215" height="148"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="B6A23CE9-A093-0238-5222-D8F71DF97843" otype="Table" vid="4AFE63E8-D2AE-2F3F-B3E5-006449E57D11">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="24" y="52" width="212" height="181"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BD4DAA76-C8BD-F6C2-D88F-9F090AED2AD8" otype="Table" vid="B0D8393A-86A0-0F4D-6CBE-95384BA8B028">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="327" y="249" width="198" height="88"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E0024F9C-B70F-4348-6788-2852C797E723" otype="Table" vid="77507CF7-54F9-695C-56A2-32A9E238BEC4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="289" y="53" width="247" height="137"/>
+</OView>
+</objectViews>
 </Diagram>

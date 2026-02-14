@@ -56,7 +56,7 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email_address" id="AF2B34B7-B0FE-15E4-A362-58D80FD29C17">
+<Attribute name="(#) email_address" id="AF2B34B7-B0FE-15E4-A362-58D80FD29C17">
 <createdBy>difuzix</createdBy>
 <createdTime>2026-02-13 19:38:24 UTC</createdTime>
 <ownerDesignName>pr2.SQL</ownerDesignName>

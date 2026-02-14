@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CUSTOMERS" directorySegmentName="seg_0" id="B6A23CE9-A093-0238-5222-D8F71DF97843">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="customer_type" id="0F114967-2D0A-1F60-8543-E6D1F928BE7E">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="full_name" id="3BB82834-99D4-2BDC-F992-931EA87236D1">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="address" id="8F78409D-EBDB-BD2E-A084-32393B9F4945">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_id" id="98772432-8D03-063F-8143-560176851169">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="current_balance" id="B15E8F60-E41F-E17F-3850-1311559CC333">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email_address" id="BBECCE76-49B7-71B6-AF13-33F007264481">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone_number" id="E1FD819E-F254-178F-C5B8-F70E4D545678">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONSTRAINT" id="EA3F3585-DF46-525C-5E13-E255B8DD7408">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:30:05 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CUSTOMERS_PK" id="396D3E61-90EB-2A18-0E56-079B360C0D90">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="cust_email_un" id="6AF6A463-44AF-7B05-9BDD-411F71FEBF5A">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:26:51 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="cust_phone_un" id="7268372F-46E2-1A8B-F3A0-2C6B2D44488B">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:30:57 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

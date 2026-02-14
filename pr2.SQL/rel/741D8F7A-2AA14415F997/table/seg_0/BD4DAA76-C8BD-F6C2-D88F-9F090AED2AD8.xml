@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD4DAA76-C8BD-F6C2-D88F-9F090AED2AD8" name="INVENTORY">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<importedID>38F864FA-00FC-54BE-F9D3-9F9C08010FF7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="inventory_id" id="8B7372A8-690F-8D48-89D6-D801965AE903">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<importedID>CE21718B-966D-7B1F-82C5-73C40F9AE710</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wholesale_unit_cost" id="D6BACC6D-50EA-F0BC-142B-F2F16DEA4622">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<importedID>5698F90F-0D94-C678-BDBA-35D385574E74</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="units_on_hand" id="F8BC12CC-6B15-FF5E-311A-6FCD01F147F4">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<importedID>0764778B-06CF-DD90-8FCC-03CA95D47866</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7BCA102-34BA-7559-E166-F62400ED30B7" name="INVENTORY_PK">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<importedID>703D32FD-899E-76E6-FD89-031C52D2F0F7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B7372A8-690F-8D48-89D6-D801965AE903"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

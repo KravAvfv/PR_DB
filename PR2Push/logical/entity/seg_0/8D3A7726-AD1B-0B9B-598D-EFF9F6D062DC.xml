@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D3A7726-AD1B-0B9B-598D-EFF9F6D062DC" name="CUSTOMERS">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>B6A23CE9-A093-0238-5222-D8F71DF97843</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="phone number" id="D27C0BEA-6052-3ED0-5A10-6D9EC24F7B05">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>E1FD819E-F254-178F-C5B8-F70E4D545678</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2EEC2A5-BB40-B1B5-0226-2B75362B094B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="full name" id="5727D527-B801-0B89-D60B-922F4A9D38C6">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>3BB82834-99D4-2BDC-F992-931EA87236D1</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB53A1F6-6A5A-63CF-2FCA-8AFCEAC6CC61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email address" id="73831D48-8669-F5FF-F173-BD880ADE6825">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>BBECCE76-49B7-71B6-AF13-33F007264481</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB53A1F6-6A5A-63CF-2FCA-8AFCEAC6CC61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer type" id="8EC6607A-C50B-8441-E6A0-1ADD8F22E00E">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>0F114967-2D0A-1F60-8543-E6D1F928BE7E</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2EEC2A5-BB40-B1B5-0226-2B75362B094B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer id" id="9736EB95-69C8-BC69-17CA-397DA04FFFE6">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>98772432-8D03-063F-8143-560176851169</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current balance" id="55FEA427-94DD-5C94-5A84-CD6D91A832EB">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>B15E8F60-E41F-E17F-3850-1311559CC333</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="assigned rep id" id="62AB95B0-8254-12A7-D965-55CD2803AE01">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>5A21F931-F339-CA09-66D7-89AB6A9E5071</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AE6C935B-8046-4F7E-DE8C-54E70A27C31A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="4D2B10C6-7394-B3F8-54CC-C883D9471522">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>8F78409D-EBDB-BD2E-A084-32393B9F4945</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB53A1F6-6A5A-63CF-2FCA-8AFCEAC6CC61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONSTRAINT" id="794EBCB3-54DC-0CC8-25D5-1137B9A60848">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>EA3F3585-DF46-525C-5E13-E255B8DD7408</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B3E20421-A3E8-2586-F86F-26BF1C1ABB2A" name="CUSTOMERS PK">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>396D3E61-90EB-2A18-0E56-079B360C0D90</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9736EB95-69C8-BC69-17CA-397DA04FFFE6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="EC24DFA2-4264-31D8-99E3-9D33262A09E2" name="cust email un">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>6AF6A463-44AF-7B05-9BDD-411F71FEBF5A</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>73831D48-8669-F5FF-F173-BD880ADE6825</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

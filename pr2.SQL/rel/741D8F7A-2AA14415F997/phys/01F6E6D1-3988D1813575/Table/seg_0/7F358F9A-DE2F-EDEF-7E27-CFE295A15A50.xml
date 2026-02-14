@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="ORDER_ITEMS" directorySegmentName="seg_0" id="7F358F9A-DE2F-EDEF-7E27-CFE295A15A50">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="order_item_id" id="42250D26-6DA1-78FB-FE21-8AE6D61A5DF1">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="unit_price" id="9BF6DF00-DD85-3EB9-7DF0-B4DF611A240B">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="color" id="A15A111B-F079-482F-AFDD-522B5926184E">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="quantity" id="C255F206-9692-40D4-472C-619D6A793C7F">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="size" id="DAAA192E-E00B-3E3B-A8A0-F0B3DCEF3181">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDER_ITEMS_PK" id="AAF7D1F8-6D9D-CE7B-4B1F-9E6C9286E41D">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>pr2.SQL</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -4,5 +4,12 @@
 <createdTime>2026-02-13 18:40:31 UTC</createdTime>
 <ownerDesignName>pr2.SQL</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>init_db.sql</fileName>
+<pathName>/home/difuzix/oraclesqldeveloperdatamodeler/mywork/PR_DB</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
 </relationalModel>

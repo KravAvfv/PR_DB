@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C1509B4-E695-6994-5AF1-7331C6B5AD77" name="ORDER ITEMS">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>7F358F9A-DE2F-EDEF-7E27-CFE295A15A50</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="unit price" id="00461B06-B83E-426B-7A05-1A0C895FA37F">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>9BF6DF00-DD85-3EB9-7DF0-B4DF611A240B</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="size" id="C235251A-7D6D-BB02-D500-73F60774CDF5">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>DAAA192E-E00B-3E3B-A8A0-F0B3DCEF3181</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2EEC2A5-BB40-B1B5-0226-2B75362B094B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantity" id="348B46BE-A493-07E0-B2DF-925B4AFA99A4">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>C255F206-9692-40D4-472C-619D6A793C7F</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="order item id" id="B760D43A-4F3D-0F57-5638-81CDB95DE160">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>42250D26-6DA1-78FB-FE21-8AE6D61A5DF1</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="order id" id="F33635BB-8A27-8634-3FA2-C6265DB645CE">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>E3BFD071-DB64-E93F-EBBB-5E2C671CC7B8</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<referedAttribute>492BDDAC-8AFD-0162-3091-16C0359C214D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="item id" id="EDD7F55D-6E64-F413-94A1-FA0E4B2123E5">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>87D395F6-310A-0018-8205-513CDED0DBC5</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<referedAttribute>2ED6A9EA-B038-5811-F8F8-91C61D389B77</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="1E4EE400-4D1B-E99F-6FF4-743EE38635FA">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>A15A111B-F079-482F-AFDD-522B5926184E</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2EEC2A5-BB40-B1B5-0226-2B75362B094B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9BEFE80-A2B9-BF2B-5F78-7E9B37559C7C" name="ORDER ITEMS PK">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>AAF7D1F8-6D9D-CE7B-4B1F-9E6C9286E41D</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B760D43A-4F3D-0F57-5638-81CDB95DE160</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

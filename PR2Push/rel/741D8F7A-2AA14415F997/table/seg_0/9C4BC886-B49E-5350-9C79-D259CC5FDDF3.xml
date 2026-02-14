@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C4BC886-B49E-5350-9C79-D259CC5FDDF3" name="ITEMS">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>PR2Push</ownerDesignName>
+<importedID>6C1CE205-182F-C4FB-C256-423FC5E69CE7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="item_id" id="89C3F42D-4BC6-CCED-3B3D-AFBB39C4ECCB">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>PR2Push</ownerDesignName>
+<importedID>F030D8CA-5995-5D68-DA55-E88BCF5CCFBC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="item_description" id="FA395002-A41F-C765-37EB-69E9D7AD1E8C">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>PR2Push</ownerDesignName>
+<importedID>D4F66371-945B-797B-6FC8-724A9DEFB108</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AB53A1F6-6A5A-63CF-2FCA-8AFCEAC6CC61</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="list_price" id="55C68350-A598-B4CC-836D-808A13FD072E">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>PR2Push</ownerDesignName>
+<importedID>B0160250-A174-BB62-FCE5-257E057A1C1B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>8FB472E0-CA74-E9E9-22C0-A28278877D36</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category" id="E8D5ACC4-43BD-1C9E-2730-736FD0AEA74A">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>PR2Push</ownerDesignName>
+<importedID>036FDA45-9C96-DF71-AF36-8F467DE16A22</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2EEC2A5-BB40-B1B5-0226-2B75362B094B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="CB2F8F4A-3551-5410-98B4-7BD4BBF88050">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>PR2Push</ownerDesignName>
+<importedID>55BCAB63-3A61-FAA7-288F-E4B42968A481</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2EEC2A5-BB40-B1B5-0226-2B75362B094B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="size" id="B90AD758-08F1-1CA3-C390-CDB75BB9D140">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>PR2Push</ownerDesignName>
+<importedID>B851863B-78C8-0561-4A4C-70342867C61D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A2EEC2A5-BB40-B1B5-0226-2B75362B094B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="431E53F7-538D-E464-6F86-6EBA2F7AA4D3" name="ITEMS_PK">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-13 19:53:01 UTC</createdTime>
+<ownerDesignName>PR2Push</ownerDesignName>
+<importedID>799FCBD3-C878-1645-F3A8-A49D552E3ECC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89C3F42D-4BC6-CCED-3B3D-AFBB39C4ECCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5348967B-0F9B-522B-88B3-876DEEE7DB63" name="item_desc_un">
+<sourceDDLFile>init_db.sql</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 08:26:51 UTC</createdTime>
+<ownerDesignName>PR2Push</ownerDesignName>
+<importedID>951CEA13-DBF7-0622-7305-0F698834E771</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA395002-A41F-C765-37EB-69E9D7AD1E8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

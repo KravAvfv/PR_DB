@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_team_cust" directorySegmentName="seg_0" id="E778AA14-2042-0906-3DD4-5052DD2166A2">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-14 09:11:52 UTC</createdTime>
+<generatorID>A356039E-C53C-72B3-EB47-3A4CB18A96C2</generatorID>
+<ownerDesignName>PR2Push</ownerDesignName>
+<engineerTo>
+<item key="741D8F7A-A00C-ED42-44AA-2AA14415F997" value="true"/>
+</engineerTo>
+<sourcePk>B3E20421-A3E8-2586-F86F-26BF1C1ABB2A</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>represents</nameOnSource>
+<nameOnTarget>is represented by </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8D3A7726-AD1B-0B9B-598D-EFF9F6D062DC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>011F2DD3-4653-770F-342C-5AEF53AF74F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
