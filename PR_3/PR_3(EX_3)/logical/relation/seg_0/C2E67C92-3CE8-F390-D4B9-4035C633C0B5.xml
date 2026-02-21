@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_ph_item" directorySegmentName="seg_0" id="C2E67C92-3CE8-F390-D4B9-4035C633C0B5">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:36:42 UTC</createdTime>
+<generatorID>838FC59F-4C14-F717-3361-81B626B8D31A</generatorID>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<engineerTo>
+<item key="43FAA172-2802-0FDA-522B-CF8484FCE452" value="true"/>
+</engineerTo>
+<sourcePk>203DD598-25EF-5FFF-FE27-CB4F1534EE43</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9BAF7652-3B5C-A8E1-51C1-FBEBF41CF49D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5EB0974F-6487-1D9E-B955-27B6B254E536</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
