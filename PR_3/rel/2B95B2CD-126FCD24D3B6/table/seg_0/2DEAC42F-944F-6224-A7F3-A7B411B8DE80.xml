@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DEAC42F-944F-6224-A7F3-A7B411B8DE80" name="price_history">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>5C91E46F-8DFB-6656-5392-F5A75A022840</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="start_date" id="5BE75D02-7382-6B9F-6E9B-FAB83E9C7D41">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>03B994D6-2D8C-03C9-1DC5-FB61D4B26E96</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>D139386F-B7F0-C55C-4F51-418B9BD27A94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_time" id="8A50223D-ED53-24FE-F12D-98F47C3F2169">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>33AB7886-4742-9B56-82C4-B83B83D85280</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>B4FA350A-B05A-E8C6-02F6-E1786A67EA4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="E80C9355-4E62-D71B-F982-CD92B2C28F1E">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>93B6FF64-5FDD-8D0B-7F18-9989FB6DAD21</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>95B1F5CB-8631-A09E-3206-87BC7006BA6D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="4493DCE1-CBDA-5FF9-FECE-486D553A15B2">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>24557014-03BC-649A-27E5-FC4F1BFADEE6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>D139386F-B7F0-C55C-4F51-418B9BD27A94</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_time" id="CBAF536C-BA67-DBBE-6232-7BB63CB34A57">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>BC479CF2-5F39-90DB-8085-050E7A2AB4AA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>B4FA350A-B05A-E8C6-02F6-E1786A67EA4E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="itm_number" id="A03EAF2A-99BD-D46D-A6C9-6874F9CD4628">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>44000E28-B393-D238-1872-57B19717E28E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2CBBE78D-C899-2CFF-342C-5520B36E3738</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E861456A-75FC-F8E7-9A3D-C2A207DF68E7" referredColumn="9E3AC745-B46A-9B4C-06BD-BF8AEF0B283A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E6E279A-4489-57A2-72E4-450D8D77EDA1" name="pk_price_history">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>C84EDEDD-8CE2-A42E-EAD2-74ED51D0696C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BE75D02-7382-6B9F-6E9B-FAB83E9C7D41"/>
+<colUsage columnID="8A50223D-ED53-24FE-F12D-98F47C3F2169"/>
+<colUsage columnID="A03EAF2A-99BD-D46D-A6C9-6874F9CD4628"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9ECAA5C6-D648-B071-DEB5-817FDE865680" name="fk_ph_item">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A03EAF2A-99BD-D46D-A6C9-6874F9CD4628"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

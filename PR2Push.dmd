@@ -36,5 +36,8 @@
 <designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BB833189-B682-FB67-BDBD-5EFFDE202C6E">
 <designStoragePath>/init_db</designStoragePath>
 </designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2269085C-8E36-B585-0DD1-9E063504A6F1">
+<designStoragePath>/init_db</designStoragePath>
+</designDescr>
 </usedDesignStorageDescriptors>
 </OSDM_Design>

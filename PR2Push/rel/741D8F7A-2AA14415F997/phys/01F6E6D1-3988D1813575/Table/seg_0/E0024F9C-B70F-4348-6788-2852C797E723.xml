@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TEAMS" directorySegmentName="seg_0" id="E0024F9C-B70F-4348-6788-2852C797E723">
-<createdBy>difuzix</createdBy>
-<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-14 12:11:29 UTC</createdTime>
 <ownerDesignName>PR2Push</ownerDesignName>
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
@@ -10,50 +10,50 @@
 <rejectLimit></rejectLimit>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
 <ColumnProxy name="team_name" id="06983FC1-658D-B377-E7AB-10EEE81A146A">
-<createdBy>difuzix</createdBy>
-<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-14 12:11:29 UTC</createdTime>
 <ownerDesignName>PR2Push</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="player_count" id="3FFA7822-3D1A-7553-6118-CDB7F8F9D039">
-<createdBy>difuzix</createdBy>
-<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-14 12:11:29 UTC</createdTime>
 <ownerDesignName>PR2Push</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="registered_customer_id" id="4025D35E-224F-0362-47EC-E3ED53BC6B41">
-<createdBy>difuzix</createdBy>
-<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-14 12:11:29 UTC</createdTime>
 <ownerDesignName>PR2Push</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="discount_percentage" id="4B9563D1-6A7E-36FC-6EB7-DF73E0EFD9C4">
-<createdBy>difuzix</createdBy>
-<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-14 12:11:29 UTC</createdTime>
 <ownerDesignName>PR2Push</ownerDesignName>
 </ColumnProxy>
 <ColumnProxy name="team_id" id="FB8602E6-358B-B9A8-B193-C77A6AB513D6">
-<createdBy>difuzix</createdBy>
-<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-14 12:11:29 UTC</createdTime>
 <ownerDesignName>PR2Push</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
 <foreignKeys>
 <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_team_cust" id="4D01E3D5-4C92-035E-3961-BABD1CF66538">
-<createdBy>difuzix</createdBy>
-<createdTime>2026-02-14 09:05:30 UTC</createdTime>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-14 12:11:29 UTC</createdTime>
 <ownerDesignName>PR2Push</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
 <PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TEAMS_PK" id="446C5EC6-5903-98F0-005D-691C2FB00CCD">
-<createdBy>difuzix</createdBy>
-<createdTime>2026-02-14 08:22:09 UTC</createdTime>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-14 12:11:29 UTC</createdTime>
 <ownerDesignName>PR2Push</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </PrimaryKey>
 </primaryKeys>
 <uniqueKeys>
 <UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="team_name_un" id="1D2D1F2E-952D-C3B1-7EAA-449B29E0A00D">
-<createdBy>difuzix</createdBy>
-<createdTime>2026-02-14 08:26:51 UTC</createdTime>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-14 12:11:29 UTC</createdTime>
 <ownerDesignName>PR2Push</ownerDesignName>
 <indexSort>SORTED</indexSort>
 </UniqueKey>
