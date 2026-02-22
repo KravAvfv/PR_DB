@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D2A97C69-6E03-3378-BBFD-78264F9D15DF" mainViewID="4ED78283-6748-C948-999D-900972575CBA">
-<createdBy>difuzix</createdBy>
-<createdTime>2026-02-13 18:40:30 UTC</createdTime>
-<ownerDesignName>pr2.SQL</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>

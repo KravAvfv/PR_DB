@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="796B3DB3-54BD-3665-A039-432F5D9C4C28" containerWithKeyObject="16E0E681-72D2-3AE5-74EB-CEC30E2A7CDA" localFKIndex="F0920AFF-EF8B-C273-DC4F-8EAE808C1C31" name="ordered_items_items_FK">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>DCA0AD00-4F28-3CCF-75DE-10E9C94A1E63</importedID>
+<referredTableLongName>items</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>08B9451B-5D43-5BBF-BF3A-E2D2E1074784</referredTableID>
+<keyObject>F104E174-68F8-4EE7-B6C3-43A575B07972</keyObject>
+<referredKeyID>F104E174-68F8-4EE7-B6C3-43A575B07972</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>itm_number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

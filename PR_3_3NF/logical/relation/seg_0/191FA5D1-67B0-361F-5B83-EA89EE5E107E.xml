@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="team representatives teams FK" directorySegmentName="seg_0" id="191FA5D1-67B0-361F-5B83-EA89EE5E107E">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>57399963-B0A1-B3F6-62BA-C263B03E7EE7</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<sourcePk>F0E93D45-6EA8-15A8-C38E-44D406261927</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>belongs to</nameOnSource>
+<nameOnTarget>has</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5AC4833E-3653-5889-1775-717DA0D3B8DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3073EB82-BA03-76CA-3825-3BE57F535ED5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

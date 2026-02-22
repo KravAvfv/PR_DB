@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="teams discount rules FK" directorySegmentName="seg_0" id="B656B926-4ED5-F231-F38B-FF075C41D1CB">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>21002AA3-5937-E43E-5772-845E53A32901</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<sourcePk>0B408E1C-9D2B-11E2-41F5-0E0A646F60B0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B0824C6E-0E8E-69BF-F710-7E3109DB089D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5AC4833E-3653-5889-1775-717DA0D3B8DA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

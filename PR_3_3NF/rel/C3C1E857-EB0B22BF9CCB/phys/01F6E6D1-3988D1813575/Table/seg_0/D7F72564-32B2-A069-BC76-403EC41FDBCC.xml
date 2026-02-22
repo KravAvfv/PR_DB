@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="individuals" directorySegmentName="seg_0" id="D7F72564-32B2-A069-BC76-403EC41FDBCC">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ctr_number" id="77480B68-F10A-8F31-83CF-35331DFCEBCF">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="loyalty_card_number" id="97D4B871-21A8-13BC-8C12-C128C944E04E">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ctr_number1" id="CEE757C0-1EBC-9E39-FA32-42B58C290411">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ind_cust_fk" id="4B823CC6-C9B1-A493-010D-16E342FF2DE6">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="individuals_customers_FK" id="DC0DAFCA-3967-10FB-8F77-11F9EA647771">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="individuals_PKv1" id="6DDAAD67-49BD-222B-694C-3E96274DDC36">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="individuals_PK" id="4AB44250-A5B2-A75F-03FC-500AF25A1689">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

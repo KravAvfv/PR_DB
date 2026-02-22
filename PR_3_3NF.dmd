@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PR_3_3NF" id="8F8F8028-BA2F-3EAB-B969-84961D0A5832" version="3.5">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:02 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8F8F8028-BA2F-3EAB-B969-84961D0A5832</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="15CB1C7D-8F0D-7F48-1803-AF5A9BDFB4CB">
+<designStoragePath>/PR_3_YEHOR </designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

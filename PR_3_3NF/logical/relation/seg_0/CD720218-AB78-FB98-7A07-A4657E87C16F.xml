@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="price history items FK" directorySegmentName="seg_0" id="CD720218-AB78-FB98-7A07-A4657E87C16F">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>E4B10DA4-F4DD-59F3-ABDA-9CE4779521FA</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<sourcePk>2454DD7B-4266-8BB3-2A6E-6425D539BEC5</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>priced using</nameOnSource>
+<nameOnTarget>represent</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9666DB78-9AE2-0E19-00A9-AC1438BBBD5B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9FF03061-494E-A11F-35C8-3292A87E1353</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
