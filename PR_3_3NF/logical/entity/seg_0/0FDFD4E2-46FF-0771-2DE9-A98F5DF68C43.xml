@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0FDFD4E2-46FF-0771-2DE9-A98F5DF68C43" name="customers addresses">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>F7444682-05D2-8D90-1704-CA1E3D51E85C</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="addr id" id="7ABB5ACD-2AC1-9F17-AFBA-AE6450C020BA">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>563DA54F-A9BE-0985-451C-9EE7EB63DCE4</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customers ctr number" id="F2488B75-9E2E-7C59-E2AD-A78F5B96E437">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>FEFF8EF8-CE1D-B605-3B95-6CC1BA76E6E4</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<referedAttribute>C1CA5DBF-338D-3EFA-36A2-B6CB1EB077CD</referedAttribute>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address line 1" id="1C459F8E-2065-08EA-7DB7-17263F79A2DF">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>76A6A3BB-5F00-163E-AE73-A09D2CC5C829</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>85B6CBD1-16CD-5DF0-95E9-A0C511089D33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address line 2" id="C4CEB1A4-9199-E1E8-2AD3-57AFBE9BACF4">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>2F105F9E-19B2-6D79-672F-88F9E067DC14</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>85B6CBD1-16CD-5DF0-95E9-A0C511089D33</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="9534B78B-15AA-34DD-B715-1F9835B0DE46">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>630EA2D9-DF37-F3C4-5604-4BAB668C0CE9</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>CF549447-5C7F-2B82-EF50-79CEBBEA086F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="postal code" id="94262A8C-93DA-BC48-4CD4-14EBD23EE0AF">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>275BA7E1-DD38-1901-0FEF-08727F03089D</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>A86877C2-FE57-D353-06D1-B2286577BF5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E4E9700A-7FD4-9A20-F551-EE3BA89B3A08" name="customers_addresses_PK">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>F3EE4434-4C35-9B8E-3EC3-87727CD3BAFB</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7ABB5ACD-2AC1-9F17-AFBA-AE6450C020BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

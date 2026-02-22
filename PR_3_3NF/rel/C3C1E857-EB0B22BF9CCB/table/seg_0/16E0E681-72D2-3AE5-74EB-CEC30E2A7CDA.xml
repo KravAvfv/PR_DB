@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16E0E681-72D2-3AE5-74EB-CEC30E2A7CDA" name="ordered_items">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>E84197CB-4868-456B-695F-268A20B0F64E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orders_ord_id" id="1A49D518-8CD6-C8EC-795B-4F9671988117">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>41FC8C54-F20B-64AD-858D-8C93B6E0226F</importedID>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BFB0D7E-A363-A455-7DF4-C46413E39AA9" referredColumn="C0FA9C80-5DFE-35EA-285D-477228AF3D7E"/>
+</associations>
+</Column>
+<Column name="items_itm_number" id="E5217567-ACA4-A433-1B58-B643266D5E85">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>5672EB5C-11CB-428F-2E74-8453D6334FA2</importedID>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="796B3DB3-54BD-3665-A039-432F5D9C4C28" referredColumn="0AB5172F-3A38-CB96-8287-B6489C869EE6"/>
+</associations>
+</Column>
+<Column name="quantity_ordered" id="5C610D6D-60AA-8019-8AF9-3D42DA2B073A">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>E7F29BBF-364E-04C7-2E47-8E445687625C</importedID>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity_shipped" id="13C10A23-6A3A-9617-C21B-789BD03FACA8">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>55DBEBDD-E94B-0A7A-529E-17F533A1D1FA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7AC28AFA-4F30-4C01-C228-B6A85F4E4C00" name="ordered_items_PK">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>9DA6FBBB-7A72-18AD-E6C5-944868872ED7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A49D518-8CD6-C8EC-795B-4F9671988117"/>
+<colUsage columnID="E5217567-ACA4-A433-1B58-B643266D5E85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0920AFF-EF8B-C273-DC4F-8EAE808C1C31" name="ordered_items_items_FK">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5217567-ACA4-A433-1B58-B643266D5E85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F55F68D-F5D0-F09A-6F5E-92A4EDAD2E5E" name="ordered_items_orders_FK">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A49D518-8CD6-C8EC-795B-4F9671988117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

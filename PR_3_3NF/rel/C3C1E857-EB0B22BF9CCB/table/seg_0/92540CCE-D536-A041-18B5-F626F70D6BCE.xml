@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92540CCE-D536-A041-18B5-F626F70D6BCE" name="sales_representatives">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>CD163945-5395-E852-8DB0-95EAE3D2AFCE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sre_id" id="98209EFB-36C4-8095-9BC9-303747878DBC">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>07747FE6-3F73-1620-6B3F-5618A7D2043F</importedID>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="A9E26B7F-96CC-A867-1F16-B1CEEE110B39">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>F09DA684-F314-ED0F-6A88-3564461F1767</importedID>
+<use>0</use>
+<domain>CF549447-5C7F-2B82-EF50-79CEBBEA086F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="DA290F61-9610-5216-A9BF-BFC4208D5FFA">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>0C16B8FD-4E57-0CE6-4B87-78B1617C7E5F</importedID>
+<use>0</use>
+<domain>5F9777F6-FB15-2C90-2746-ACA9BB8DC13B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="4EF84F66-9444-AC54-0DB6-4B9935A7CC2A">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>71E2092D-FD14-8EE9-9DBB-23967DCD7099</importedID>
+<use>0</use>
+<domain>5F9777F6-FB15-2C90-2746-ACA9BB8DC13B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="262485F0-D4DD-C7EB-5BB1-7AD1AE2CB01D">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>F06B74E3-94D2-D06D-7CD3-D4AF773FB0BD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>A86877C2-FE57-D353-06D1-B2286577BF5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="commission_rate" id="5AB8304B-8201-F92B-4004-DDF6DB83C112">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>566AEB17-F193-3922-FBC5-3C514D53C2C3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>413F96FC-28C0-E15C-97CE-BDC74EE40470</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sales_representatives_sre_id" id="FB6DA266-4918-86DB-B10C-86584B794D73">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>39CF0515-BEB8-E136-80F8-3E59805D8564</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F958E390-9229-DBE2-1F8D-AEEA361D06EC" referredColumn="98209EFB-36C4-8095-9BC9-303747878DBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="581D076C-4282-D190-38EF-ABC727C8E1A9" name="sales_representatives_PK">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>0FDD2DA5-A33F-7329-5AD7-EB991843A5ED</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98209EFB-36C4-8095-9BC9-303747878DBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D089C9BF-CAD0-BD91-BF5D-DB236622FE6D" name="sales_representatives_email_UN">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>2A794E5D-06F3-3018-BE56-E13D28E4C50C</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9E26B7F-96CC-A867-1F16-B1CEEE110B39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="220A4EFE-68A0-15A6-9F8C-CAE55DE90EF3" name="sales_representatives_sales_representatives_FK">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB6DA266-4918-86DB-B10C-86584B794D73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

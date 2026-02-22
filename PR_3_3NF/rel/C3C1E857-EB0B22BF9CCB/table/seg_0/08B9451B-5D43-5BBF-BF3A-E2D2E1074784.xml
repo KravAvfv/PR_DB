@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08B9451B-5D43-5BBF-BF3A-E2D2E1074784" name="items">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>85A66465-8EEE-878A-531B-F625B0F07924</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="itm_number" id="0AB5172F-3A38-CB96-8287-B6489C869EE6">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>D9C6E412-CA18-0920-5E9D-F89C4094ECF0</importedID>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="itm_name" id="019450AE-F0CB-FDC2-E878-0EC8AA4D3F04">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>59BDA352-FEA6-DE7F-4621-7E3698F31373</importedID>
+<use>0</use>
+<domain>CF549447-5C7F-2B82-EF50-79CEBBEA086F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="8050367D-0E6F-5D1E-C631-01858CD3EA89">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>CA713122-EC9C-128F-1E10-B3DD8FC4E41F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>724EFDBB-A1DA-DEDA-4B54-F8094FEF820F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category" id="E95F6A69-75B2-71DC-0856-B9E12DC9BFE1">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>0D0F3394-D547-137C-5F70-227A7F794510</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>5F9777F6-FB15-2C90-2746-ACA9BB8DC13B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="base_price" id="33F6D2F1-C688-AD06-E842-29DC37ABC4E3">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>E59569B6-55DA-71A8-BC63-B959DCC9D5EE</importedID>
+<use>0</use>
+<domain>F9371119-9203-4545-16CE-A6291127D3C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="AE00426F-AC88-D97B-19F2-C7D4DAFA119A">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>948454B6-5F7B-AB32-E209-FF24587B7989</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>5F9777F6-FB15-2C90-2746-ACA9BB8DC13B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="size" id="C5F9B487-29F1-6F34-5D16-EE2A52D5CACE">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>212A2104-4E64-4F75-F798-D5BCFAB661BF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>A86877C2-FE57-D353-06D1-B2286577BF5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F104E174-68F8-4EE7-B6C3-43A575B07972" name="items_PK">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>E994D4F5-A570-4262-CEF1-D0CD332D651F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AB5172F-3A38-CB96-8287-B6489C869EE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

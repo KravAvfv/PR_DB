@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="21002AA3-5937-E43E-5772-845E53A32901" containerWithKeyObject="E8FF2D46-FEA2-CC57-82F2-7B1EED17E3FD" localFKIndex="4B26BCC2-3F21-C933-15FE-6FF95889191F" name="teams_discount_rules_FK">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>9706733D-9A80-5EF8-0324-DA7D7C17E8E3</importedID>
+<referredTableLongName>discount_rules</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5C82937-CA63-A715-D70A-95ED5D4F377C</referredTableID>
+<keyObject>CB95BD56-0109-789F-D8B9-08D7A6F01156</keyObject>
+<referredKeyID>CB95BD56-0109-789F-D8B9-08D7A6F01156</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>min_players</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

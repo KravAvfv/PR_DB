@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3C0B99B-BC53-BDF5-167B-6E7E35CB2A8F" name="team_representatives">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>228D4980-0173-FA98-CA8C-DBA963F52BC1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ctr_number" id="6062482C-5E9D-62F2-4054-B3C1D6AAF38A">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>6ADD32E0-9FA6-B054-C2CB-CA9AC82FC82A</importedID>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7209013B-8D71-7F6C-2062-F7F274E82213" referredColumn="7403DD53-A1CC-ACD3-F2AE-2B859E5CE333"/>
+</associations>
+</Column>
+<Column name="job_position" id="A1CDE79E-E8AD-FF4C-053A-53FFBE1D7995">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>2AD666B4-7964-F662-5B18-4D13A214BFC6</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>5F9777F6-FB15-2C90-2746-ACA9BB8DC13B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="teams_team_id" id="2B2CD350-24B0-05CA-BA18-2DDBAE770EFE">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>01B07B1A-F899-4181-C852-845453136ABD</importedID>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57399963-B0A1-B3F6-62BA-C263B03E7EE7" referredColumn="F7E7278A-B2C5-2C23-E6DF-882F9E1FEE55"/>
+</associations>
+</Column>
+<Column name="ctr_number1" id="638B588E-68C8-EA06-7E28-84296CABCF4E">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<generatorID>C1CA5DBF-338D-3EFA-36A2-B6CB1EB077CD</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8704D96D-25F3-65CB-3FC5-55BE3B34F43B" referredColumn="7403DD53-A1CC-ACD3-F2AE-2B859E5CE333"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE55543E-CE52-7506-B358-01781020C465" name="team_representatives_PK">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<generatorID>A95A9870-BF34-E10D-3A83-DE478B76F025</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="638B588E-68C8-EA06-7E28-84296CABCF4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65DCA0C1-FCDA-93B5-8D19-DBC734B94363" name="team_representatives_PKv2">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>FB8318A6-804D-4FBF-E0D7-F327DFD02DF6</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="26261B56-52F1-56E1-4E4C-4F4C70B8D0CA" name="team_reps_cust_fk">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6062482C-5E9D-62F2-4054-B3C1D6AAF38A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA4E988A-5C5B-9CB0-6A11-33845858800C" name="team_representatives_teams_FK">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B2CD350-24B0-05CA-BA18-2DDBAE770EFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8310B3EF-4363-606E-DC08-0A80E5C66EED" name="team_representatives_customers_FK">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<generatorID>9DE45F69-0166-3F78-0947-0686AA53C740</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="638B588E-68C8-EA06-7E28-84296CABCF4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

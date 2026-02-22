@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C871764-57F4-689A-7C23-5E8EC14ED331" name="customers">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>312E2C37-232C-A67D-9DF1-F9BB95A07385</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ctr number" id="C1CA5DBF-338D-3EFA-36A2-B6CB1EB077CD">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>7403DD53-A1CC-ACD3-F2AE-2B859E5CE333</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="E308028A-C885-D646-82D4-F378D44FE0A1">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>D3DA47BD-E118-7133-0FDF-DA458738E329</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>CF549447-5C7F-2B82-EF50-79CEBBEA086F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first name" id="97108ECC-C590-ED3B-D80D-3C3878EBB52D">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>B105E28C-AE60-21D2-9B20-2A8868FDF135</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>5F9777F6-FB15-2C90-2746-ACA9BB8DC13B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last name" id="C5D997AD-E30A-4952-7E7B-BFA3CFE07111">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>B5A4D7C2-B091-7D26-6B5C-8BFB44820507</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>5F9777F6-FB15-2C90-2746-ACA9BB8DC13B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone number" id="E5D5BCBA-9E37-3944-3936-2123CE5A23EE">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>CF48DC30-B4C7-407E-2A5C-6249B0989D92</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>A86877C2-FE57-D353-06D1-B2286577BF5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="current balance" id="67DCA81E-3617-C630-8129-E4D74A8BD0A6">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>08340FF3-EB48-2388-51C6-2BBF732D392B</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>F9371119-9203-4545-16CE-A6291127D3C0</domain>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="customer type" id="C15AD777-8BFD-B4C3-E79E-DEEBD8398B3D">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>00F5F3A8-F41A-F6B1-F6EC-5678B58A6235</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<use>0</use>
+<domain>A86877C2-FE57-D353-06D1-B2286577BF5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sales representatives sre id" id="91E9E024-3C4E-15D3-FD93-C785AA97521C">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>954CE5D2-CDC9-209E-6399-346AF6AA9FA4</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AF40FD4D-DCD0-067F-1519-8D5ADE9BFD35</referedAttribute>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A95A9870-BF34-E10D-3A83-DE478B76F025" name="customers pk">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>C383CED8-5FE1-F708-65E5-5B65C0AEA1F9</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1CA5DBF-338D-3EFA-36A2-B6CB1EB077CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

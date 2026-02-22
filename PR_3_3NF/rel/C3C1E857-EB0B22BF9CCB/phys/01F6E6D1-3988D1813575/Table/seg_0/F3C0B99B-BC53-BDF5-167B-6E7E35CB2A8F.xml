@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="team_representatives" directorySegmentName="seg_0" id="F3C0B99B-BC53-BDF5-167B-6E7E35CB2A8F">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="teams_team_id" id="2B2CD350-24B0-05CA-BA18-2DDBAE770EFE">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ctr_number" id="6062482C-5E9D-62F2-4054-B3C1D6AAF38A">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ctr_number1" id="638B588E-68C8-EA06-7E28-84296CABCF4E">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="job_position" id="A1CDE79E-E8AD-FF4C-053A-53FFBE1D7995">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="team_reps_cust_fk" id="26261B56-52F1-56E1-4E4C-4F4C70B8D0CA">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="team_representatives_customers_FK" id="8310B3EF-4363-606E-DC08-0A80E5C66EED">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="team_representatives_teams_FK" id="FA4E988A-5C5B-9CB0-6A11-33845858800C">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="team_representatives_PK" id="CE55543E-CE52-7506-B358-01781020C465">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="team_representatives_PKv2" id="65DCA0C1-FCDA-93B5-8D19-DBC734B94363">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7F72564-32B2-A069-BC76-403EC41FDBCC" name="individuals">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>DFD1BAFF-7846-FE37-4DA3-91173840E392</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ctr_number" id="77480B68-F10A-8F31-83CF-35331DFCEBCF">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>2D12CA54-BDA3-3F2E-EC86-DBF5BC1C8CB4</importedID>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AF11060-6B8B-B4AC-5D91-13535AF8D28D" referredColumn="7403DD53-A1CC-ACD3-F2AE-2B859E5CE333"/>
+</associations>
+</Column>
+<Column name="loyalty_card_number" id="97D4B871-21A8-13BC-8C12-C128C944E04E">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>20AB9394-BEDD-D70C-16CF-0D5E8B936D4A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>A86877C2-FE57-D353-06D1-B2286577BF5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ctr_number1" id="CEE757C0-1EBC-9E39-FA32-42B58C290411">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<generatorID>C1CA5DBF-338D-3EFA-36A2-B6CB1EB077CD</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<use>0</use>
+<domain>DF3E8DE3-C56B-07BB-B1E7-EA1A1DCBCAB3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2864055-B879-29D4-9827-55B6D37E7A9F" referredColumn="7403DD53-A1CC-ACD3-F2AE-2B859E5CE333"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DDAAD67-49BD-222B-694C-3E96274DDC36" name="individuals_PKv1">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<generatorID>A95A9870-BF34-E10D-3A83-DE478B76F025</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEE757C0-1EBC-9E39-FA32-42B58C290411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AB44250-A5B2-A75F-03FC-500AF25A1689" name="individuals_PK">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>34E2D182-5E6E-EF0C-CF3A-71AF365566F3</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="4B823CC6-C9B1-A493-010D-16E342FF2DE6" name="ind_cust_fk">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77480B68-F10A-8F31-83CF-35331DFCEBCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC0DAFCA-3967-10FB-8F77-11F9EA647771" name="individuals_customers_FK">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 15:16:33 UTC</createdTime>
+<generatorID>4893669E-E6B7-7E6B-CF70-A84FD288FA78</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEE757C0-1EBC-9E39-FA32-42B58C290411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="505864E4-0187-CE5E-62BA-C3DA82910CB5" name="individuals">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>D7F72564-32B2-A069-BC76-403EC41FDBCC</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>1C871764-57F4-689A-7C23-5E8EC14ED331</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="loyalty card number" id="56528411-ECDA-1CA1-47E5-99158C33B0C2">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>97D4B871-21A8-13BC-8C12-C128C944E04E</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<domain>A86877C2-FE57-D353-06D1-B2286577BF5D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5ED6EFE-2D0F-E37C-2DF9-5ED5FBDC1A69" name="individuals pk">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>4AB44250-A5B2-A75F-03FC-500AF25A1689</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

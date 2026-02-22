@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ordered items orders FK" directorySegmentName="seg_0" id="CCDC17E0-131E-C654-5DD9-F0D7FB96AACE">
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:18:01 UTC</createdTime>
+<generatorID>8BFB0D7E-A363-A455-7DF4-C46413E39AA9</generatorID>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<engineerTo>
+<item key="C3C1E857-D8E8-BE85-69DD-EB0B22BF9CCB" value="true"/>
+</engineerTo>
+<sourcePk>5263821D-880E-5FF5-869D-6E83025CE4AC</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>part of</nameOnSource>
+<nameOnTarget>includes</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2142A367-5CD0-F7E2-7CE3-C2047B2E9DB0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>234EF00E-B45C-94A0-8809-83D916508FAF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

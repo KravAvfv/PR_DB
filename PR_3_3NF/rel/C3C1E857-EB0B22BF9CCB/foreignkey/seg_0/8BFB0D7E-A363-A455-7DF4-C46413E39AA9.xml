@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8BFB0D7E-A363-A455-7DF4-C46413E39AA9" containerWithKeyObject="16E0E681-72D2-3AE5-74EB-CEC30E2A7CDA" localFKIndex="4F55F68D-F5D0-F09A-6F5E-92A4EDAD2E5E" name="ordered_items_orders_FK">
+<sourceDDLFile>PR_3_YEHOR .ddl</sourceDDLFile>
+<createdBy>difuzix</createdBy>
+<createdTime>2026-02-22 14:17:48 UTC</createdTime>
+<ownerDesignName>PR_3_YEHORfinal</ownerDesignName>
+<importedID>4F9E26B5-2E89-5BE6-F01F-4E54F1614F04</importedID>
+<referredTableLongName>orders</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6EEE6FF3-E944-E587-43B9-0EC4E7EB827B</referredTableID>
+<keyObject>3308E223-0E55-91C8-55DA-8FBE16B741C7</keyObject>
+<referredKeyID>3308E223-0E55-91C8-55DA-8FBE16B741C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ord_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
