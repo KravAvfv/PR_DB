@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8950CA1A-359E-759C-24C2-42362E08004C" name="courses">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>ABCB55C9-9ED7-18A7-12BF-4B787125FCE3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="0342554C-BF74-1F8D-9981-311CE003AF3F">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>A9273CB2-1BF1-9E47-7795-3F3B2F7B8036</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="43AE6BDB-35B6-D123-544B-FB037DDF39DE">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>7A55FD81-5970-D8E7-5EFE-8EE2F1CB81E5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3E68A6F0-EA2D-CD92-9ACE-98754455C2FE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dep_id" id="FB8D953E-B287-BFE8-F1A5-BC85572D9330">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>F362AB03-4E72-2334-D19F-B89C25815ECE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CF7E6497-0332-E247-5F26-8FDB00A47065</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29474B2C-F9A0-7FDC-D20B-C0E81E7CFE6C" referredColumn="BEE38336-9BCA-1ACF-1ED2-C0F8408AC086"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FCA2CA88-8C2C-E53E-197A-A8CF5998D165" name="crs_pk">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>DFB8CBE8-9B44-1E90-E2EC-048CE5E4BCB5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0342554C-BF74-1F8D-9981-311CE003AF3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1060383-1D5A-E017-F234-8F696BE097FD" name="crs_dep_fk">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB8D953E-B287-BFE8-F1A5-BC85572D9330"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

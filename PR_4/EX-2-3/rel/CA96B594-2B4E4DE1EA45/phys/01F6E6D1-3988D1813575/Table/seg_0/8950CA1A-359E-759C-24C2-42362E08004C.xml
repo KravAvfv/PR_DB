@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="courses" directorySegmentName="seg_0" id="8950CA1A-359E-759C-24C2-42362E08004C">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id" id="0342554C-BF74-1F8D-9981-311CE003AF3F">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="43AE6BDB-35B6-D123-544B-FB037DDF39DE">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dep_id" id="FB8D953E-B287-BFE8-F1A5-BC85572D9330">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="crs_dep_fk" id="B1060383-1D5A-E017-F234-8F696BE097FD">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="crs_pk" id="FCA2CA88-8C2C-E53E-197A-A8CF5998D165">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

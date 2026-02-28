@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BFF1E543-E33D-9B8B-B9C1-01FDD5BBD634" name="online">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:11:16 UTC</createdTime>
+<generatorID>E3029B81-6735-28C7-39B2-E7E2320C3A17</generatorID>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<engineerTo>
+<item key="CA96B594-8469-1049-416D-2B4E4DE1EA45" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="crs id" id="2D0DA7CA-5D92-7D19-ED97-4240FDEBBC44">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:11:16 UTC</createdTime>
+<generatorID>E5402AEC-430F-6CD8-3116-BC1A0407ED5E</generatorID>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<engineerTo>
+<item key="CA96B594-8469-1049-416D-2B4E4DE1EA45" value="true"/>
+</engineerTo>
+<referedAttribute>6235CE2D-AD2E-2B94-7B85-F57E8F361854</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logon id" id="E2F8C64F-24C1-7ABC-BF40-7562FEE6504E">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:11:16 UTC</createdTime>
+<generatorID>299CABAE-2A34-F026-D965-DE733D87A30D</generatorID>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<engineerTo>
+<item key="CA96B594-8469-1049-416D-2B4E4DE1EA45" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0DAD4001-8C62-DF95-97C2-E421870FCD9D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="124D7A10-B3A4-D8BF-AA86-61F6233BABDE">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:11:16 UTC</createdTime>
+<generatorID>576D652E-3F52-289B-01CF-F2AFAC2256FD</generatorID>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<engineerTo>
+<item key="CA96B594-8469-1049-416D-2B4E4DE1EA45" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0DAD4001-8C62-DF95-97C2-E421870FCD9D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B26D026-92B0-D643-1072-5F21DD24B242" name="onl pk">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:11:16 UTC</createdTime>
+<generatorID>FD7B1750-FDDF-705D-FA1C-E6ACDC2646AB</generatorID>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<engineerTo>
+<item key="CA96B594-8469-1049-416D-2B4E4DE1EA45" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D0DA7CA-5D92-7D19-ED97-4240FDEBBC44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6A89391-9DCD-86EF-349C-11518B57C767" name="inventory_list">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>4946067A-B5E3-0780-1B12-5959E9B1C001</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="45656EF0-F3DE-6DF3-64A7-C4B10408B742">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>4A2499F2-BEA3-6429-B718-82B14F7A99E0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F12461A-0466-CBF8-CAB2-B0404BBF8997</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cost" id="DAC59E95-54BC-B6FE-F94C-15DA21680F8B">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>51C6D049-394C-8306-3457-23C54D1DEA03</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>369FC383-ABD9-70B3-4FDC-09FC240C1C56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="units" id="2010DF8F-651A-69C4-2708-10F86CD3298D">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>2E32927E-047A-DC9A-08B7-0BD735B14531</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0FF5A385-01B0-95B4-639E-8917BB20E4FC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52E84A9E-FC56-8A44-086D-E9FE97B60077" name="pk_inventory">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>21E5518F-1469-8B75-9A65-5055343A1A4F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45656EF0-F3DE-6DF3-64A7-C4B10408B742"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

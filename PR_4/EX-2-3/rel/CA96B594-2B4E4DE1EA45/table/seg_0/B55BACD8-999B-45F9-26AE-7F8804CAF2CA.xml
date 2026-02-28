@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B55BACD8-999B-45F9-26AE-7F8804CAF2CA" name="academic_sessions">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>889ECF74-3584-0A7C-1F11-B16EF731B755</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B11CCD6E-C86B-B8B5-9E21-7053B25A6816">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>AD08F373-333C-567B-29A0-2B16C61AA814</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="F3543928-B003-7359-BFD1-26B3CF671602">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>8E9B867F-09C8-02DD-2CD3-47406CE25CEF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7A5FBA9C-62B6-9C67-F289-CAB2C2AA92B5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3DE92EF-70C8-8251-85CF-F8B364EABF79" name="acs_pk">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>12329E4E-830A-773D-8E4E-16806B6F562C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B11CCD6E-C86B-B8B5-9E21-7053B25A6816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

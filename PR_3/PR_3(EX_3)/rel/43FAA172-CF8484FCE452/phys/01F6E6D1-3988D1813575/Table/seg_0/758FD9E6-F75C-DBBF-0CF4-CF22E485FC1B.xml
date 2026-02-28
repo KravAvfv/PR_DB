@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="ordered_items" directorySegmentName="seg_0" id="758FD9E6-F75C-DBBF-0CF4-CF22E485FC1B">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="itm_number" id="02EAE799-E23E-9ADE-9200-557B59CE33A0">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="quantity_ordered" id="42734DE8-0D6F-648C-9B8B-6E19AC38D3CE">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="odr_id" id="84BBB13F-1FAE-3538-9EDB-9B8663D05FB5">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="quantity_shipped" id="CDFB6578-8774-15C6-AC64-2DFAE4A2E015">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_oi_order" id="35F5C3E9-9EB4-CD23-D89A-A8D8BCE11FDB">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_oi_item" id="50C8D8EA-D101-01C1-2AD7-D42F1EEAD1BB">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_ordered_items" id="9F49712A-4FE2-3B62-5755-ECFDE073EC38">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

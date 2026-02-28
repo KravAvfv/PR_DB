@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="A3AE20EF-30DE-385C-6FBF-3451BEE4A9D5">
-<createdBy>difuzix</createdBy>
-<createdTime>2026-02-13 18:40:30 UTC</createdTime>
-<ownerDesignName>pr2.SQL</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>

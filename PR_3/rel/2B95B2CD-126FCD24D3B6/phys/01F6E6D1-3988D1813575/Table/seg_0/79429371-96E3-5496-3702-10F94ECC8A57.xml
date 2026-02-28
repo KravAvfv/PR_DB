@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="sales_representatives" directorySegmentName="seg_0" id="79429371-96E3-5496-3702-10F94ECC8A57">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="email" id="26817035-08B9-1AF5-8282-CA1B6D02E75D">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="supervisor_id" id="7C3F18B7-1A07-A4C5-2447-4F840413A199">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="phone_number" id="A50C6456-5816-0650-C341-2CB5D8FA939F">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="commission_rate" id="A8F44351-59C0-F317-A80D-822E0F26F93D">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="C7D2C968-7178-82D3-CDBC-035B86EA1E62">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="C7DDC1A7-D13C-D5F5-37FB-EF1E575EF45F">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="last_name" id="D050A130-B971-B380-F5FF-5046CC28D920">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_sre_supervisor" id="38580B4F-7A36-8E13-9EFA-5BAC88415F32">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_sales_rep" id="563A6999-F38F-B34A-C183-BC5866C0EF8B">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="uk_sales_rep_email" id="AE25E7D9-017D-60B0-EFEA-1E2BB44D1E1A">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

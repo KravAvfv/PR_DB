@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7425DFCA-6880-272B-F8FB-06145FA77124" name="items">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>6BA56489-E710-8A9E-4D82-6C22D85A7727</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="itm_number" id="8EBEF484-6645-81A3-F366-663072D45F14">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>EF5AFCAA-EA9B-0D58-8DB7-5D6EBACA7882</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AC808511-C179-82F4-C29F-457356BC88D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="8D2519FA-F96A-5622-50E7-737348CB0CFC">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>11138E82-2D17-CD07-CB8C-C9C442583B2E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>030698C7-88E7-76EF-7D5C-B1C380084CEC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="3A32A75E-80E3-1D56-E66C-18F966812B6D">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>8AE1139D-C3D5-1971-F099-742823100B37</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>13ABEF21-A96B-6978-4F74-E7D2C06DF94D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category" id="71963DA7-2088-03A6-764B-A8C1E7B1705A">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>99E6E872-CB60-0572-DA28-AED12BD50A87</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>63D07964-19DE-F613-27C5-6578DA491A4D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="72A87B9E-9833-B227-B026-BF3A258842FB">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>28C50C7E-09DE-C7CE-744B-EF8143D78BC6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>369FC383-ABD9-70B3-4FDC-09FC240C1C56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="3DD372C8-8A83-771C-32BB-8DBE9B3322A8">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>5F97EF93-C14C-97B3-CA7B-C48BF37B965E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D499B2EC-5998-5811-1B58-C2C761DEB2C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="size" id="9300A1C3-7F3C-4003-0509-9794157ABF92">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>FA42A0EB-613E-5928-959D-40FC05A9C1BF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AA039F9A-E185-F757-5511-09B8315AE452</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ilt_id" id="6F1B4F63-FFB6-17E1-5382-8B18182685A3">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>D73576EA-5428-7034-0C4D-8CABEE19C8A4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3F12461A-0466-CBF8-CAB2-B0404BBF8997</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC9C5397-46B3-CBAB-6585-158D971060F4" referredColumn="45656EF0-F3DE-6DF3-64A7-C4B10408B742"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E61FFC75-C76A-7CD5-327C-3DD5FBE71617" name="pk_items">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>46CEA37F-466D-1E4D-9433-91D808E34947</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EBEF484-6645-81A3-F366-663072D45F14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AF6C2EC-1DDE-369B-C5F3-14F21FAF7AF9" name="fk_items_inventory">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F1B4F63-FFB6-17E1-5382-8B18182685A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

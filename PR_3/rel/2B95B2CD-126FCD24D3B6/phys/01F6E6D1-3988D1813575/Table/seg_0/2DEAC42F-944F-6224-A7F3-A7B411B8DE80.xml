@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="price_history" directorySegmentName="seg_0" id="2DEAC42F-944F-6224-A7F3-A7B411B8DE80">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="end_date" id="4493DCE1-CBDA-5FF9-FECE-486D553A15B2">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="start_date" id="5BE75D02-7382-6B9F-6E9B-FAB83E9C7D41">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="start_time" id="8A50223D-ED53-24FE-F12D-98F47C3F2169">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="itm_number" id="A03EAF2A-99BD-D46D-A6C9-6874F9CD4628">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="end_time" id="CBAF536C-BA67-DBBE-6232-7BB63CB34A57">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="price" id="E80C9355-4E62-D71B-F982-CD92B2C28F1E">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_ph_item" id="9ECAA5C6-D648-B071-DEB5-817FDE865680">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_price_history" id="4E6E279A-4489-57A2-72E4-450D8D77EDA1">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F139386C-F8E9-6955-78C2-254A93BB599C" name="items">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>57F5CA81-AB30-E32D-F24E-D40D375FD40A</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="itm number" id="64A57055-D80E-71F6-B58D-C1D7B364A8F4">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>9E3AC745-B46A-9B4C-06BD-BF8AEF0B283A</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2CBBE78D-C899-2CFF-342C-5520B36E3738</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="A25C25D7-FFDE-09BB-E706-B3E40BEE2D97">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>840A5982-DFE3-A35B-935E-6EDC961095F1</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C2AE7FD8-84CD-6149-772A-1DEB4CD154C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="FC2D2C67-363D-9E65-01DF-96BBE38E0080">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>75BCE34E-895F-E468-E854-C281227F9B19</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8F515D92-5E63-9582-1ACD-37E354107643</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="category" id="46AAA71D-063C-F84C-AD7B-15A5B03B166C">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>88A85033-21B6-E9E3-2764-7CC6C25E032D</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>064DE95A-544B-3A91-ECD4-74D3E8F3161B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="0D1F8229-1300-4E08-35CD-A0F14E3B88E7">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>D9780B4F-CE7C-A296-5FB4-8E2330FEFE72</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>95B1F5CB-8631-A09E-3206-87BC7006BA6D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="C2012303-330F-3ED5-0480-1DAC9EAABBFD">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>2C296D26-C43C-2548-5746-BBE209C72A4E</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>70CDB4D4-92F5-9E32-ED99-5E394AEC7A16</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="size" id="EB7EC04B-2900-AD5C-4901-A5828B729644">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>87D53C48-A9ED-B281-5110-9D695DC6508B</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>E05D853D-814B-E963-3093-5ADA10027A11</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ilt id" id="4D75BFE7-F43B-574A-450D-1D2C0E42CEBD">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>DA5A63B8-0863-5B58-29F5-583C711B1572</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<referedAttribute>A677B4D9-9773-13E2-860C-35C5FC0BC379</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>33F0E2F0-5F63-0CF2-0E63-C555A57163B3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF3DC848-3EA3-54F7-5CBF-155F46F337F4" name="pk items">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>EC1ADB7D-F170-99CD-BB58-30850BBB6ACD</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>64A57055-D80E-71F6-B58D-C1D7B364A8F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

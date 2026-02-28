@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="teams" directorySegmentName="seg_0" id="3A53D9C1-62D3-21B0-87DB-4E0EC1E66B81">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id" id="0DA8CAC2-DF43-8902-E299-52760B3D0E3F">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="discount" id="2BC2786D-C0C7-2934-A21A-6D6E440187DC">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="number_of_players" id="D205AA18-E230-D0DC-6E05-670D89ADD17C">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="D8ABB2D7-4DDF-B10D-0445-859137AAE27E">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_teams" id="4773EBCE-4B2A-3D4F-3072-578A230D2D51">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

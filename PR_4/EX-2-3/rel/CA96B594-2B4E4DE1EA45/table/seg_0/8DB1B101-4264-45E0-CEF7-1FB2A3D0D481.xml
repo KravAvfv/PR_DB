@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DB1B101-4264-45E0-CEF7-1FB2A3D0D481" name="faculty_login_detail">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>519743C2-F3BE-8C91-DA9E-D531AB2630AB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B155DC8E-46E3-0E73-F522-94692F63268B">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>8FB60F39-A6FD-75A5-6D72-1F7427722961</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login_datetime" id="81C96186-CE4D-3BB8-8131-195492D4F191">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>C50FC24F-D57C-44C7-CEA4-D90F75304668</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>AEB66CF8-C265-DC16-805B-DC0CFDE27A8D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fac_id" id="1B451881-CDC3-492A-C0E6-95C941A9E0DB">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>6DFEAA03-76D9-578C-A903-B278B0EF9FA5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B0EC06F-EC4B-D357-54F5-F2A8944DB7BD" referredColumn="4B94862A-E2F2-A774-0FD6-74E04BB51C61"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89D48C0F-B767-ABA0-1BBC-CEDBD7305B12" name="fld_pk">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>CF8B3C74-C4F6-4057-2BF8-E884E76256B4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B155DC8E-46E3-0E73-F522-94692F63268B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CBD891A-0FB3-D7B1-DBF8-2B8A379DCD6D" name="fld_fac_fk">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B451881-CDC3-492A-C0E6-95C941A9E0DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

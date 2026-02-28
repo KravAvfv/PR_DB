@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCD9468B-8827-EE50-9873-FF304D78507F" name="individuals">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>9CABA607-94F1-CD39-69DE-F717307316A5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ctr_number" id="046E36DD-79AF-805D-9874-80E1332392E6">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>F9D16147-11A4-629C-A35F-F11DA395771A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B2E54C90-6669-F3DA-94C4-C18D7F4DD743</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CB58558-FF43-DD25-3543-336F204C5456" referredColumn="1B30703C-D185-308D-E4E5-61F1BC18BE09"/>
+</associations>
+</Column>
+<Column name="loyalty_card_number" id="FC975D2A-A145-B459-3F9F-AB5B12830A50">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>EA856AE4-EC0F-603A-B804-541D7BB061C8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B2E54C90-6669-F3DA-94C4-C18D7F4DD743</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9B1B798-4D4C-7EE4-52E0-34B7443F91AE" name="pk_individuals">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>5A164D4C-5074-6041-2C73-BEC18CCB7E70</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="046E36DD-79AF-805D-9874-80E1332392E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4802A425-8C2C-8CEB-CE9A-7BCA1748DC67" name="fk_ind_customer">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="046E36DD-79AF-805D-9874-80E1332392E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7CC1451-EC99-DB14-4E4D-95216CC266A7" name="teams">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>699F99E1-4844-3CBD-4E73-12F306ABEBD1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BDD6DCE8-5A8A-65B6-0767-33B96A86C722">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>20FEEB67-DF3B-DB74-7954-A5785C862CCC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10616E29-F10A-0647-EDE4-FB57A9361F88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="89ACC556-24BA-71E0-1888-54290224B85D">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>E7191208-0748-8FFE-59B2-403D52AECF4C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C2AE7FD8-84CD-6149-772A-1DEB4CD154C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number_of_players" id="9737295B-CD9B-1B94-7C31-0FFF91026E94">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>E889C142-39F7-F9C1-1B15-44DA1090EBB3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FC3CFA51-751F-895E-0DC0-32BCCEB435EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="discount" id="6C5A0523-7440-7FFC-439B-89B5387267EE">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>D4077DDD-D76E-C4A5-71E4-D91FEDA3A20E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FC3CFA51-751F-895E-0DC0-32BCCEB435EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7DEEB01-9A5D-2D1D-1CC2-9474EAB98CBA" name="pk_teams">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>8E562795-E22B-EBAD-B21F-86E7D2813BA0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDD6DCE8-5A8A-65B6-0767-33B96A86C722"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

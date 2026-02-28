@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B14E1CCB-2029-005E-1914-3AFD74E3583B" containerWithKeyObject="79429371-96E3-5496-3702-10F94ECC8A57" localFKIndex="38580B4F-7A36-8E13-9EFA-5BAC88415F32" name="fk_sre_supervisor">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>7A22AAB1-CE38-88B3-CB38-7F398EEEA4B4</importedID>
+<referredTableLongName>sales_representatives</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>79429371-96E3-5496-3702-10F94ECC8A57</referredTableID>
+<keyObject>563A6999-F38F-B34A-C183-BC5866C0EF8B</keyObject>
+<referredKeyID>563A6999-F38F-B34A-C183-BC5866C0EF8B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

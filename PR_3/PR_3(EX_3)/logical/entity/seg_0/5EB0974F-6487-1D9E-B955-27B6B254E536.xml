@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EB0974F-6487-1D9E-B955-27B6B254E536" name="price history">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:36:42 UTC</createdTime>
+<generatorID>2AFE8B43-FF7A-F773-E316-823EF05CED88</generatorID>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<engineerTo>
+<item key="43FAA172-2802-0FDA-522B-CF8484FCE452" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="start date" id="663EE63D-80E4-23FB-5B05-CCFB46C9BA18">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:36:42 UTC</createdTime>
+<generatorID>68852D20-1FFA-CDD0-2AD0-704BF65AA40F</generatorID>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<engineerTo>
+<item key="43FAA172-2802-0FDA-522B-CF8484FCE452" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>69FB1D2D-FE87-9C5B-5373-2409ADDD0962</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start time" id="06290789-D2FE-F113-D255-4A008CD9ADFD">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:36:42 UTC</createdTime>
+<generatorID>34A854A4-06B7-21DA-FF38-7416E920A056</generatorID>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<engineerTo>
+<item key="43FAA172-2802-0FDA-522B-CF8484FCE452" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>BCA16CA4-0F8D-1D3C-ED2A-D3F16AB70B79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="8E50EAA9-ED7A-EF48-FC05-E429DB4F6F80">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:36:42 UTC</createdTime>
+<generatorID>C5605066-6D22-CF9E-F662-AED3FF0AE98A</generatorID>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<engineerTo>
+<item key="43FAA172-2802-0FDA-522B-CF8484FCE452" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>369FC383-ABD9-70B3-4FDC-09FC240C1C56</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end date" id="D806EF6F-7AB8-3AD4-17B0-717A93ACDA7A">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:36:42 UTC</createdTime>
+<generatorID>1534733F-0D6C-E72F-3D7F-7C56581D054A</generatorID>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<engineerTo>
+<item key="43FAA172-2802-0FDA-522B-CF8484FCE452" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>69FB1D2D-FE87-9C5B-5373-2409ADDD0962</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end time" id="9C382ED2-0CAC-7F3B-461D-6839ABEB8F8C">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:36:42 UTC</createdTime>
+<generatorID>83C425E9-1302-CCAD-9E76-3798A6CEEADF</generatorID>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<engineerTo>
+<item key="43FAA172-2802-0FDA-522B-CF8484FCE452" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>BCA16CA4-0F8D-1D3C-ED2A-D3F16AB70B79</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="itm number" id="642C6478-28D1-6D09-003C-889F6899F300">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:36:42 UTC</createdTime>
+<generatorID>C2E67C92-3CE8-F390-D4B9-4035C633C0B5</generatorID>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<engineerTo>
+<item key="43FAA172-2802-0FDA-522B-CF8484FCE452" value="true"/>
+</engineerTo>
+<referedAttribute>C250F581-A1EF-87E5-5AD8-6E102D625C7B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AC808511-C179-82F4-C29F-457356BC88D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03C37A5F-DCB6-9B32-F06C-A9B8B8AEBFF7" name="pk price history">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:36:42 UTC</createdTime>
+<generatorID>2FD49904-B475-5642-6406-EBFE2522B743</generatorID>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<engineerTo>
+<item key="43FAA172-2802-0FDA-522B-CF8484FCE452" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>663EE63D-80E4-23FB-5B05-CCFB46C9BA18</attributeRef>
+<attributeRef>06290789-D2FE-F113-D255-4A008CD9ADFD</attributeRef>
+<attributeRef>642C6478-28D1-6D09-003C-889F6899F300</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

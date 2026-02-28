@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0AB5686E-E9E0-4555-DCCE-3D354B86BABE" name="sales representatives">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>79429371-96E3-5496-3702-10F94ECC8A57</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="7D748C82-DA5B-7EF8-CFF4-3125B1053402">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>C7D2C968-7178-82D3-CDBC-035B86EA1E62</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10616E29-F10A-0647-EDE4-FB57A9361F88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="C04BC390-C429-70ED-9EB3-FB5B65704BFC">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>26817035-08B9-1AF5-8282-CA1B6D02E75D</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8F515D92-5E63-9582-1ACD-37E354107643</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first name" id="CC03E9F6-6CFF-779A-B355-4C3A0D4D48C0">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>C7DDC1A7-D13C-D5F5-37FB-EF1E575EF45F</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C2AE7FD8-84CD-6149-772A-1DEB4CD154C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last name" id="B95D7BDD-2F3A-359C-925C-272625FC8AAE">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>D050A130-B971-B380-F5FF-5046CC28D920</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2E11D24B-2230-8855-CEF8-4D51C4F49929</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone number" id="2BA2E57D-D81F-8E63-D78B-B6738426FC19">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>A50C6456-5816-0650-C341-2CB5D8FA939F</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>33F0E2F0-5F63-0CF2-0E63-C555A57163B3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="commission rate" id="F82A00B3-4E68-EE95-67FD-4FFB61AB809D">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>A8F44351-59C0-F317-A80D-822E0F26F93D</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FC3CFA51-751F-895E-0DC0-32BCCEB435EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="supervisor id" id="502DF438-B12E-3599-4973-FD82C607AADD">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>CC07B2B2-95E1-3B7F-C7F3-515757989979</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7D748C82-DA5B-7EF8-CFF4-3125B1053402</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10616E29-F10A-0647-EDE4-FB57A9361F88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="102490DA-D6AF-5F32-E5F1-7EA2F0F016EE" name="pk sales rep">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>563A6999-F38F-B34A-C183-BC5866C0EF8B</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7D748C82-DA5B-7EF8-CFF4-3125B1053402</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7B1F858E-5D87-36B3-B046-223AB1236308" name="uk sales rep email">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 09:05:27 UTC</createdTime>
+<generatorID>AE25E7D9-017D-60B0-EFEA-1E2BB44D1E1A</generatorID>
+<ownerDesignName>PR_3</ownerDesignName>
+<engineerTo>
+<item key="2B95B2CD-D1AF-D1F3-90CF-126FCD24D3B6" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>C04BC390-C429-70ED-9EB3-FB5B65704BFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

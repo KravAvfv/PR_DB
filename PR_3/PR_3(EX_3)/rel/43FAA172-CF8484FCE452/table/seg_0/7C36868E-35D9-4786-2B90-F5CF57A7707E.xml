@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C36868E-35D9-4786-2B90-F5CF57A7707E" name="team_representatives">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>F4E4672F-D1BD-5931-3EEA-EB473E9282CE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ctr_number" id="1FFE9E10-9226-9A02-81F6-9FB10E2C4678">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>E4CF1ED2-BF5F-3284-0208-1EB365945D68</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B2E54C90-6669-F3DA-94C4-C18D7F4DD743</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52FA386E-463D-F306-54CA-03BF8EFA4F13" referredColumn="1B30703C-D185-308D-E4E5-61F1BC18BE09"/>
+</associations>
+</Column>
+<Column name="team_they_belong_to" id="080891E7-1A6E-B8DD-AABD-1F739FF34F82">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>5AB052ED-B07B-D71E-F6D2-30A26AE7425E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>75AE3583-BF85-9501-88F4-CF4B1F8BC3A5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1280D700-97D6-DB41-AEA9-05A2AC3EE499" referredColumn="0DA8CAC2-DF43-8902-E299-52760B3D0E3F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E7D232F-A6CD-7EDD-18E9-387B2BD40D39" name="pk_team_rep">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>A34A7C5A-B679-E8AB-BF7D-B47050431499</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FFE9E10-9226-9A02-81F6-9FB10E2C4678"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2E30C2B-61EA-B860-6C26-F1363E251560" name="fk_trep_customer">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FFE9E10-9226-9A02-81F6-9FB10E2C4678"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2202357-7C42-71EA-249C-867B87D68F49" name="fk_trep_team">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="080891E7-1A6E-B8DD-AABD-1F739FF34F82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

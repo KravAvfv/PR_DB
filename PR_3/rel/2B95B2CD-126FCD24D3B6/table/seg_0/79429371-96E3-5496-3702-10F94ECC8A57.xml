@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="79429371-96E3-5496-3702-10F94ECC8A57" name="sales_representatives">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>C6811D3D-43CD-CB71-1816-0915422FDD41</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C7D2C968-7178-82D3-CDBC-035B86EA1E62">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>56E0A9E0-601D-AB3D-5127-7C9961446815</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10616E29-F10A-0647-EDE4-FB57A9361F88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="26817035-08B9-1AF5-8282-CA1B6D02E75D">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>AB2D732B-A4A1-CB73-30AB-85B4CDCB6ED0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8F515D92-5E63-9582-1ACD-37E354107643</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="C7DDC1A7-D13C-D5F5-37FB-EF1E575EF45F">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>3536977F-1F23-045B-510B-C571AAC2E025</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C2AE7FD8-84CD-6149-772A-1DEB4CD154C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="D050A130-B971-B380-F5FF-5046CC28D920">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>56B0FB8C-B2A5-80CE-C247-CDF8F690C698</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2E11D24B-2230-8855-CEF8-4D51C4F49929</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_number" id="A50C6456-5816-0650-C341-2CB5D8FA939F">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>5CAC5768-51A9-9958-DC33-734C1B51D4D7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>33F0E2F0-5F63-0CF2-0E63-C555A57163B3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="commission_rate" id="A8F44351-59C0-F317-A80D-822E0F26F93D">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>1DD5BC7D-021E-324E-6377-F2DB6DC0EB88</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>FC3CFA51-751F-895E-0DC0-32BCCEB435EC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="supervisor_id" id="7C3F18B7-1A07-A4C5-2447-4F840413A199">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>EF1AF138-0E54-2074-309C-2314DDA60D69</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>10616E29-F10A-0647-EDE4-FB57A9361F88</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B14E1CCB-2029-005E-1914-3AFD74E3583B" referredColumn="C7D2C968-7178-82D3-CDBC-035B86EA1E62"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="563A6999-F38F-B34A-C183-BC5866C0EF8B" name="pk_sales_rep">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>BE37FC59-9860-0B10-C7F7-16D408EDA362</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7D2C968-7178-82D3-CDBC-035B86EA1E62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AE25E7D9-017D-60B0-EFEA-1E2BB44D1E1A" name="uk_sales_rep_email">
+<sourceDDLFile>OBL_schema.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<importedID>647729F2-A0B7-06E3-F7AE-7CD5936C01FA</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26817035-08B9-1AF5-8282-CA1B6D02E75D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38580B4F-7A36-8E13-9EFA-5BAC88415F32" name="fk_sre_supervisor">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:13:07 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C3F18B7-1A07-A4C5-2447-4F840413A199"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

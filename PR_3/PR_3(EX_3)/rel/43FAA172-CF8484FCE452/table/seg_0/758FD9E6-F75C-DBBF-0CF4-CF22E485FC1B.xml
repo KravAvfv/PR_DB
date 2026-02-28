@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="758FD9E6-F75C-DBBF-0CF4-CF22E485FC1B" name="ordered_items">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>DC3771D0-8819-B6C1-23F3-169B446B725A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="odr_id" id="84BBB13F-1FAE-3538-9EDB-9B8663D05FB5">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>1F280F4C-1150-70AA-4949-50FBC46C53C9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5A4189D4-4B35-191D-5555-F98E13856EB5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79AB595D-01D6-2CE0-C111-3A38B19A25BB" referredColumn="0F06FED7-6C88-620B-4367-5C4B732E7D6A"/>
+</associations>
+</Column>
+<Column name="itm_number" id="02EAE799-E23E-9ADE-9200-557B59CE33A0">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>8AA1C7D3-B663-8D63-1F13-44754FF6E0C0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>AC808511-C179-82F4-C29F-457356BC88D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADB5F673-5062-466C-E38B-9C713C60012B" referredColumn="8EBEF484-6645-81A3-F366-663072D45F14"/>
+</associations>
+</Column>
+<Column name="quantity_ordered" id="42734DE8-0D6F-648C-9B8B-6E19AC38D3CE">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>B42AFEB1-CE98-BD75-5A6D-A25FD4930970</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>193F9B7A-1649-3826-4E48-4DF0579A49A3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity_shipped" id="CDFB6578-8774-15C6-AC64-2DFAE4A2E015">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>57F05297-03D6-B662-8F3D-C58ACB8D1FC8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>193F9B7A-1649-3826-4E48-4DF0579A49A3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F49712A-4FE2-3B62-5755-ECFDE073EC38" name="pk_ordered_items">
+<sourceDDLFile>OBL_schema_v2.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<importedID>6413C48D-E57D-B358-7F75-2FD5E978019C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84BBB13F-1FAE-3538-9EDB-9B8663D05FB5"/>
+<colUsage columnID="02EAE799-E23E-9ADE-9200-557B59CE33A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50C8D8EA-D101-01C1-2AD7-D42F1EEAD1BB" name="fk_oi_item">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02EAE799-E23E-9ADE-9200-557B59CE33A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35F5C3E9-9EB4-CD23-D89A-A8D8BCE11FDB" name="fk_oi_order">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:34:18 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84BBB13F-1FAE-3538-9EDB-9B8663D05FB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

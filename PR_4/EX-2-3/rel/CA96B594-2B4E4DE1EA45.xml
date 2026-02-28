@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="CA96B594-8469-1049-416D-2B4E4DE1EA45" mainViewID="AB4CA705-38FC-0B8D-D10B-F76FA13EEEE8">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 17:47:16 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>academic_db.sql</fileName>
+<pathName>/home/krava/Завантажене</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

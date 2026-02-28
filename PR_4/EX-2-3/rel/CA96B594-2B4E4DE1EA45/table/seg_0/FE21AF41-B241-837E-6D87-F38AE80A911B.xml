@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE21AF41-B241-837E-6D87-F38AE80A911B" name="faculty_course_detail">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>05A8F4AC-CCB6-9B3F-EF4D-FB8588E6F339</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7504BB17-2D73-F586-BF0A-FB3E45431EF9">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>622E8A27-79EE-4D7A-F023-45A7DB9C1FD6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contact_hours" id="23729A87-ADA3-9146-1EF2-223CC8A97A1E">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>9B9C0DA8-3DF5-E165-25D2-5291E3CC220D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>BF33A212-23D2-99CC-288A-8FEC75CAACB5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fac_id" id="8BBB355F-A65D-0004-7499-F8DC0F32504F">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>7B5242F5-1D8A-D5B4-DBBD-90D4350103AC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A39A9A6-68AA-2272-F1AD-F7BF7D56B980" referredColumn="4B94862A-E2F2-A774-0FD6-74E04BB51C61"/>
+</associations>
+</Column>
+<Column name="crs_id" id="56CCD111-7C7B-7163-4275-D06B32CAA880">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>2C19332B-FAF5-E32C-07A7-2F48C3300C03</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47DC70C5-98BC-F876-7C03-A7B41F972F88" referredColumn="0342554C-BF74-1F8D-9981-311CE003AF3F"/>
+</associations>
+</Column>
+<Column name="acs_id" id="D808F3F8-4831-458D-D94F-4A45C99C1C4B">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>C737C859-59D6-085C-A5B6-BFBA3CE0CCD9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65D61BAF-69A2-C4FE-F6F7-22962C988ED0" referredColumn="B11CCD6E-C86B-B8B5-9E21-7053B25A6816"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4586892-795C-343E-0E86-4F44C851CEFB" name="fcd_pk">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>57A203B4-031C-AD6A-2C42-ED2627C9086E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7504BB17-2D73-F586-BF0A-FB3E45431EF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B613100C-DAA0-0E2A-5C86-7837FC44F088" name="fcd_acs_fk">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D808F3F8-4831-458D-D94F-4A45C99C1C4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0A1031F-BE18-B9D8-3565-A8312A306F2A" name="fcd_crs_fk">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56CCD111-7C7B-7163-4275-D06B32CAA880"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60143DBB-0F87-C356-7CF0-3A6345245073" name="fcd_fac_fk">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BBB355F-A65D-0004-7499-F8DC0F32504F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="43FAA172-2802-0FDA-522B-CF8484FCE452" mainViewID="2944D2A4-3A71-A05E-0AAA-D328EE51F09A">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 10:33:42 UTC</createdTime>
+<ownerDesignName>PR_3(EX_3)</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>OBL_schema_v2.sql</fileName>
+<pathName>/home/krava/Завантажене</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

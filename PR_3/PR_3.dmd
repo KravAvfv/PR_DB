@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PR_3" id="CCCFDE17-B9FA-84B1-027E-CCA91F9F182E" version="3.5">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-21 08:11:36 UTC</createdTime>
+<ownerDesignName>PR_3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CCCFDE17-B9FA-84B1-027E-CCA91F9F182E</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="DB8ABAE1-8FFD-830C-F431-29AFC9B87148">
+<designStoragePath>/OBL_schema</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
