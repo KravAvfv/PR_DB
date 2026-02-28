@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3995CA62-F872-2520-881C-82D4F0DF9F28" name="student_course_detail">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>F12C6CA6-B978-B67E-61CF-E3B22CBCF48A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="565378C5-D93A-5FA2-276A-319CE09F33F3">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>66315C04-A0A3-632B-F59A-2358E64994DE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="grade" id="43226691-65B0-BF0C-BC4E-C411CA993840">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>F01728A5-CFF4-387D-46BD-93D8A9AA0C8B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2E2A8184-CCE9-6193-6C90-CE2084FE0001</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stu_id" id="EE3DEACB-61CA-D48B-C903-EC26C29F592F">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>335BD6C8-FBF5-16DE-AFBA-8BE53C50E5A8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38030D86-41E6-B155-EE24-EA130CD22D5B" referredColumn="EE895778-851D-5B49-39DF-9654073D8913"/>
+</associations>
+</Column>
+<Column name="crs_id" id="90DE692D-BD4B-095A-2266-07FF33A4D10A">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>8B12FBAC-3E4E-4228-C5DF-BF1B38D7F3C7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68743996-7404-E577-3BD1-052DA167A25A" referredColumn="0342554C-BF74-1F8D-9981-311CE003AF3F"/>
+</associations>
+</Column>
+<Column name="acs_id" id="5B3AE8E7-C165-B344-22A1-171E5C05E712">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>421AD3EE-01A2-4A75-7802-BFFF5C5BEDEA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>597CEBDC-3FE0-163E-5502-7AC342CAA1CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44C58023-EBAD-066B-A102-BAF30A827ACC" referredColumn="B11CCD6E-C86B-B8B5-9E21-7053B25A6816"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="904679D6-BBB3-F794-AB59-15B89497E707" name="scd_pk">
+<sourceDDLFile>academic_db.sql</sourceDDLFile>
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<importedID>4F113573-6AB5-D6C3-BE79-8E382A553152</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="565378C5-D93A-5FA2-276A-319CE09F33F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C69E4781-E0EE-4C53-D494-DB40E45B309E" name="scd_acs_fk">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B3AE8E7-C165-B344-22A1-171E5C05E712"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4DEC759-FE08-CB12-4176-6FFE03EEDEE7" name="scd_crs_fk">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90DE692D-BD4B-095A-2266-07FF33A4D10A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96F11232-D46B-3CB5-A078-0B7B8A0B9AB6" name="scd_stu_fk">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:04:47 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE3DEACB-61CA-D48B-C903-EC26C29F592F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

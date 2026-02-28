@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sea_crs_fk" directorySegmentName="seg_0" id="47752CA5-93AB-44F8-281C-79BB31B79B28">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 18:11:16 UTC</createdTime>
+<generatorID>A9626606-4895-CE71-84AF-264459F9CEB2</generatorID>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<engineerTo>
+<item key="CA96B594-8469-1049-416D-2B4E4DE1EA45" value="true"/>
+</engineerTo>
+<sourcePk>DEA21C92-DFF7-6493-9DCC-DABA810AC343</sourcePk>
+<dominantRole>A6C3274B-5204-F88A-0B35-CB488DA7F386</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A6C3274B-5204-F88A-0B35-CB488DA7F386</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>AEA64756-34FB-166E-7E2D-F918B5CE44CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

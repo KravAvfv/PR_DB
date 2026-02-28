@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EX-2-3" id="E92AC86F-B124-763C-AB4E-AEB5CD2D2D09" version="3.5">
+<createdBy>krava</createdBy>
+<createdTime>2026-02-28 17:47:09 UTC</createdTime>
+<ownerDesignName>EX-2-3</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E92AC86F-B124-763C-AB4E-AEB5CD2D2D09</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D5F72BF4-1551-AC19-7CAD-5F80DB00DDC0">
+<designStoragePath>/academic_db</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
